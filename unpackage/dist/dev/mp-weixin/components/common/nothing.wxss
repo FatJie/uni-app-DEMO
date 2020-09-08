@@ -1,0 +1,13 @@
+
+.nothing.data-v-2f6c57ae{
+	background-color: #fffff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.nothing image.data-v-2f6c57ae{
+	width:50%;
+}
+

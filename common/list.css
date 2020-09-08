@@ -1,0 +1,70 @@
+.common-list{
+		padding:20upx;
+	}
+	.common-list-left image{
+		width:90upx;
+		height:90upx;
+		border-radius: 100%;
+	}
+	.common-list-right{
+		flex: 1;
+		margin-left: 15upx;
+		padding-bottom: 10upx;
+		border-bottom: 1upx solid #eee;
+	}
+	.common-list-right image{
+		width:100%;
+		border-radius: 10upx;
+	}
+	.common-list-right>view:nth-child(1)>view:first-child{
+		color: #999;
+		font-size: 32upx;
+	}
+	.common-list-right>view:nth-child(1)>view:last-child{
+		background-color: #eee;
+		padding: 0 10upx;
+		font-size: 26upx;
+	}
+	.common-list-right>view:nth-child(2){
+		font-size: 32upx;
+		padding: 12upx 0;
+	}
+	.common-list-right>view:nth-child(3){
+		position: relative;
+		margin-bottom: 10upx;
+	}
+	.common-list-play,.common-list-playinfo{
+		position: absolute;
+		color: #fff;
+	}
+	.common-list-play{
+		font-size: 130upx;
+	}
+	.common-list-playinfo{
+		right: 10upx;
+		bottom: 10upx;
+		background: rgba(51,51,51,0.73);
+		border-radius: 20upx;
+		padding: 0 20upx;
+		font-size: 26upx;
+	}
+	.common-list-right>view:nth-child(4)>view{
+		color: #aaa;
+	}
+	.common-list-right>view:nth-child(4)>view:nth-child(2)>view{
+		margin-left: 10upx;
+		padding-left: 5upx;
+		font-size: 28upx;
+	}
+	.common-list-share{
+		width:100%;
+		padding: 10upx;
+		border-radius: 10upx;
+		background-color: #eee;
+	}
+	.common-list-share>image{
+		width:200upx;
+		height:150upx;
+		margin-right: 10upx;
+	}
+	
